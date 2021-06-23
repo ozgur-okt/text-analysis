@@ -9,9 +9,7 @@ df<-X203_text
 finger<-get_fingerprint_from_text(texts = text)
 
 
-a<- seq(1:203)
 
-cor(a,df3$GC_1)
 
                                 # CHARACTER TO NUMERIC 
 
@@ -42,13 +40,13 @@ which(colnames(df3)=="GC_15" )
 
 df3<-df3[,-36]
 
-df3$
+
   
   which(colnames(df3)=="PE21")
 
 df3<-df3[,-56]
 
-df3$
+
   
                         ## NEW COLM VIOLENCE CT BELIEF AND NORMATIVE
   
@@ -140,9 +138,7 @@ which(df3$IPAddress== "51.9.162.138")
 df3<-df3[-195,]
 
 
-31.18.80.131
-89.205.137.203
-51.9.162.138
+
 
                                      # TEXT CLEANING 
 
