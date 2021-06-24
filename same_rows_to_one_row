@@ -25,7 +25,17 @@ data %>%
   group_by(id) %>% 
   mutate(word = paste0(word, collapse = " ")) %>% 
   slice(1) # Take the first line from each group
+  ungroup()
   
-  or
+  #or
   
   unique(a[, "new"])
+  
+ #or better (so you don't need the slice):
+
+data %>% 
+  group_by(id) %>% 
+  summarise(word = paste0(word, collapse = " "))
+
+
+
