@@ -4,9 +4,9 @@ myCorpus = tm_map(myCorpus, PlainTextDocument) # an intermediate preprocessing s
 
 myCorpus = tm_map(myCorpus, tolower) # converts all text to lower case
 
-myCorpus = tm-map(myCorpus, removePunctuation) #removes punctuation
+myCorpus = tm_map(myCorpus, removePunctuation) #removes punctuation
 
-myCorpus = tm_map(myCorpus, removeWords, stopwords(“english”)) #removes common words like “a”, “the” etc
+myCorpus = tm_map(myCorpus, removeWords, stopwords("english")) #removes common words like “a”, “the” etc
 
 myCorpus = tm_map(myCorpus, stemDocument) # removes the last few letters of similar words such as get, getting, gets
 
