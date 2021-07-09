@@ -1,3 +1,6 @@
+source: https://towardsdatascience.com/text-mining-with-r-gathering-and-cleaning-data-8f8b0d65e67c
+
+
 # Get the text column
 text <- data_fix$text
 
