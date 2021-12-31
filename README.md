@@ -16,3 +16,6 @@ I also used one aggression scale to see if there is a correlation between aggres
 During the study my main source abouth text analysis methods was:
 
 https://www.tidytextmining.com/
+
+
+![Ekran Görüntüsü (440)](https://user-images.githubusercontent.com/73358116/147812508-d4aa244c-d748-4e15-81af-ef907f00491a.png)
